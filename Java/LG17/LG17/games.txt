@@ -1,0 +1,6 @@
+111 1925 Action 100.5 255
+222 2007 Adventure 23.4 554
+333 2018 Simulation 54.2 265
+444 2012 Strategy 32.8 478
+555 1998 Strategy 34.7 147
+666 1998 Strategy 94.7 158

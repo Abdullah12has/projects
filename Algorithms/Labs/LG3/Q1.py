@@ -1,0 +1,10 @@
+import numpy as np
+A=np.random.randint(0,11,10)
+B=np.random.randint(0,11,10)
+print("Team A:",A)
+print("Team B:",B)
+print("Team A has won",np.sum(A>B),"games")
+print("Scores fot team b losses:",B[A>B])
+print("Maximum score for Team A:",np.max(A))
+print("Average score(all games):",np.sum(np.concatenate((A,B)))/20)
+print("Point difference for each game:",abs(A-B))
