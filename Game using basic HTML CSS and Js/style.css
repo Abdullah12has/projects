@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+#coverUpper{
+
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    background-image: url(upb2.jpg);
+    padding-left:50px;
+
+    width: 280px;
+    
+
+
+}
+
+#playButton{
+    padding-left:50px;
+    padding-top: 5px;
+}
+
+#coverInner{
+    background-image: url("backg7.jpg");
+    display: flex;
+    
+}
+
+#cover{
+    margin: 0px;
+    padding:0px;
+}
+
+#restText{
+    color: lightgray;
+    font-family: 'Indie Flower', cursive;
+    margin-left:100px;
+}
+#myImage{margin-top:20px;
+margin-left:20px; }
+
+#diff{display:flex;  margin-top:0px; }
+#selectDiff{height:20px;margin-top:15px; margin-left: 10px;}
+
+body{background-color: black;}
+
+#nextPage{
+    background-color: black;
+}
+#diffop{color: blueviolet; background-color: bisque;}
+
+.box{background-image: url("b2.jpeg"); background-size: cover; width: 50px; height:50px; } 
+
+.box:hover{background-image: url("i2.jpg"); background-size: cover; width: 50px; height:50px;}
+
+#yes{background-image: url("yes.png"); width:50px; height:50px; background-size:cover};
+#no{background-image: url("no.png"); width:50px; height:50px; background-size:cover};
+
+#nextPage{display: flex;}
+
+#interrupt{background-image: url(i7.jpg); width: 100%; height: 570px; background-size: cover; } 
+
+#success{background-image: url(i7.jpg); width: 100%; height: 570px; background-size: cover; } 
+
+
+.a{
+    color:rgb(255, 255, 255);
+    font-size:20px;
+    margin:0px;
+    padding:0px;
+   
+    text-align: center;
+}
+.imessage{text-align: center; color:white; font-family: monospace;}
